@@ -1,0 +1,47 @@
+body{
+    background-color: #008080;
+}
+.container {
+    background-color:#7F462C;
+    height:255px;
+    width:255px;
+    border-radius:10px;
+    position:relative;
+    top:80px;
+    left:40%;
+}
+input {
+    font-size:18px;
+    cursor:pointer;
+    width: 45px;
+    height: 40px;
+    margin: 0px 5px;
+    border: none;
+    border-radius: 8px;
+    border-top: 2px solid transparent;
+    border-bottom:black 2px solid;
+    outline:none;
+}
+#result{
+    width: 100%;
+    background-color: #F88017;
+    margin-top: 12px;
+}
+#clear{
+    color: #C85A17;
+    margin-top: 12px;
+    font-weight:bold;
+}
+.operators{
+    background-color: #C85A17;
+}
+#equal{
+    color:#C85A17;
+    font-weight:bold;
+}
+.num:hover,.num:focus {
+    background-color:#C85A17;
+}
+.operators:hover,.operators:focus{
+  background-color: white;
+}
